@@ -70,8 +70,8 @@ _#Combining results into a CSV_
 nano summary_fasta.sh  
 bash summary_fasta.sh  
 _#Compressing and transferring results from local to remote_   
-[vwangari@hpc01 ~]$ tar -czvf practical_assignment.tar.gz practical_assignment/  
-vanessa@Vee:~$  scp vwangari@hpc01.icipe.org:/home/vwangari/practical_assignment.tar.gz .  
+[vwangari@hpc01 ]tar -czvf practical_assignment.tar.gz practical_assignment  
+vanessa@Vee: scp vwangari@hpc01.icipe.org:/home/vwangari/practical_assignment.tar.gz .  
 
 
 
